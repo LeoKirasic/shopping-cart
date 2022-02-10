@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Tops from './Tops';
 function Nav() {
   return (
     <nav>
@@ -13,12 +12,6 @@ function Nav() {
         </Link>
         <Link to="/tees">
           <li>Tees</li>
-        </Link>
-        <Link to="/hats">
-          <li>Hats</li>
-        </Link>
-        <Link to="/socks">
-          <li>Socks</li>
         </Link>
         <Link to="/accessories">
           <li>Accessories</li>
