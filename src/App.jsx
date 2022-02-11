@@ -4,23 +4,39 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Tops from './components/Tops';
 import Tees from './components/Tees';
-import Socks from './components/Socks';
-import Hats from './components/Hats';
 import Bottoms from './components/Bottoms';
 import Accessories from './components/Accessories';
+import Card from './components/Card';
 function App() {
+  function createCards(array) {
+    const cardList = array.map((card) => (
+      <Card key={card.title} title={card.title} img={card.img} />
+    ));
+    return cardList;
+  }
   return (
     <Router>
       <div className="flex flex-col items-center">
         <Header></Header>
         <Nav></Nav>
         <Routes>
-          <Route path="/tops" element={<Tops />}></Route>
-          <Route path="/tees" element={<Tees />}></Route>
-          <Route path="/socks" element={<Socks />}></Route>
-          <Route path="/hats" element={<Hats />}></Route>
-          <Route path="/bottoms" element={<Bottoms />}></Route>
-          <Route path="/accessories" element={<Accessories />}></Route>
+          <Route path="/" element={<Tops createCards={createCards} />}></Route>
+          <Route
+            path="/tops"
+            element={<Tops createCards={createCards} />}
+          ></Route>
+          <Route
+            path="/tees"
+            element={<Tees createCards={createCards} />}
+          ></Route>
+          <Route
+            path="/bottoms"
+            element={<Bottoms createCards={createCards} />}
+          ></Route>
+          <Route
+            path="/accessories"
+            element={<Accessories createCards={createCards} />}
+          ></Route>
         </Routes>
       </div>
     </Router>
