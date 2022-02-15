@@ -7,6 +7,7 @@ import Tees from './components/Tees';
 import Bottoms from './components/Bottoms';
 import Accessories from './components/Accessories';
 import Card from './components/Card';
+import Cart from './components/Cart';
 function App() {
   function createCards(array) {
     const cardList = array.map((card) => (
@@ -37,6 +38,7 @@ function App() {
             path="/accessories"
             element={<Accessories createCards={createCards} />}
           ></Route>
+          <Route path="/cart" element={<Cart></Cart>}></Route>
         </Routes>
       </div>
     </Router>
