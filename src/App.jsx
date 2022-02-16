@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import uniqid from 'uniqid';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Nav from './components/Nav';
@@ -34,7 +35,7 @@ function App() {
   function createCartCards(array) {
     const cardList = array.map((card) => (
       <CartCard
-        key={card.title}
+        key={uniqid()}
         title={card.title}
         img={card.img}
         price={card.price}
