@@ -4,32 +4,32 @@ import PropTypes from 'prop-types';
 function Tops(props) {
   const tops = [
     {
-      title: 'basicLogoCrewneck',
+      title: 'Basic Logo Crewneck',
       img: require('../assets/tops/basic-logo-crewneck.jpg'),
       price: 100,
     },
     {
-      title: 'basicLogoHoodie',
+      title: 'Basic Logo Hoodie',
       img: require('../assets/tops/basic-logo-hoodie.jpg'),
       price: 100,
     },
     {
-      title: 'logoHoodie',
+      title: 'Logo Hoodie',
       img: require('../assets/tops/logo-hoodie.jpg'),
       price: 100,
     },
     {
-      title: 'miniLogoCrewneck',
+      title: 'Mini Logo Crewneck',
       img: require('../assets/tops/mini-logo-crewneck.jpg'),
       price: 90,
     },
     {
-      title: 'multiLogoHoodie',
+      title: 'Multi Logo Hoodie',
       img: require('../assets/tops/multi-logo-hoodie.jpg'),
       price: 90,
     },
     {
-      title: 'saveTheBeesHoodie',
+      title: 'Save The Bees Hoodie',
       img: require('../assets/tops/save-the-bees-hoodie.jpg'),
       price: 90,
     },

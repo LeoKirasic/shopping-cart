@@ -4,32 +4,32 @@ import propTypes from 'prop-types';
 function Bottoms(props) {
   const bottoms = [
     {
-      title: 'basicLogoSweatpants',
+      title: 'Basic Logo Sweatpants',
       img: require('../assets/bottoms/basic-logo-sweatpants.jpg'),
       price: 90,
     },
     {
-      title: 'logoBoxersBriefs',
+      title: 'Logo Boxers Briefs',
       img: require('../assets/bottoms/logo-boxers-briefs.jpg'),
       price: 45,
     },
     {
-      title: 'logoBoxers',
+      title: 'Logo Boxers',
       img: require('../assets/bottoms/logo-boxers.jpg'),
       price: 45,
     },
     {
-      title: 'logoSweatpants',
+      title: 'Logo Sweatpants',
       img: require('../assets/bottoms/logo-sweatpants.jpg'),
       price: 90,
     },
     {
-      title: 'logoSweatshorts',
+      title: 'Logo Sweatshorts',
       img: require('../assets/bottoms/logo-sweatshorts.jpg'),
       price: 70,
     },
     {
-      title: 'multiLogoSweatpants',
+      title: 'Multi Logo Sweatpants',
       img: require('../assets/bottoms/multi-logo-sweatpants.jpg'),
       price: 90,
     },

@@ -3,27 +3,27 @@ import propTypes from 'prop-types';
 function Accessories(props) {
   const accessories = [
     {
-      title: 'golfMask',
+      title: 'Golf Mask',
       img: require('../assets/accessories/golf-mask.jpg'),
       price: 30,
     },
     {
-      title: 'golfNecklace',
+      title: 'Golf Necklace',
       img: require('../assets/accessories/golf-necklace.jpg'),
       price: 60,
     },
     {
-      title: 'golfRing',
+      title: 'Golf Ring',
       img: require('../assets/accessories/golf-ring.jpg'),
       price: 60,
     },
     {
-      title: 'noStringsRing',
+      title: 'No Strings Ring',
       img: require('../assets/accessories/no-strings-ring.jpg'),
       price: 60,
     },
     {
-      title: 'saveTheBeesBandana',
+      title: 'Save Th eBees Bandana',
       img: require('../assets/accessories/save-the-bees-bandana.jpg'),
       price: 10,
     },
